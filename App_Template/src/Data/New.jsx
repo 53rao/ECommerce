@@ -7,7 +7,7 @@ const newshoeData = [
     colors: "blue",
     colorStyle: "bg-blue-300",
     productNumber: "P7384",
-    image: "/Images/blue1.png"
+    image: "/New/blue1.png"
   },
   {
     Collection: "New",
@@ -18,7 +18,7 @@ const newshoeData = [
     colorStyle: "bg-purple-300",
     productNumber: "P2057",
     description: "Waterproof hiking shoe designed for rugged terrain.",
-    image: "/Images/purple.png"
+    image: "/New/purple.png"
   },
   {
     Collection: "New",
@@ -29,7 +29,7 @@ const newshoeData = [
     colorStyle: "bg-cyan-300",
     productNumber: "P4892",
     description: "Trendy high-top sneaker with flexible outsole.",
-    image: "/Images/cyan1.png"
+    image: "/New/cyan1.png"
   },
   {
     Collection: "New",
