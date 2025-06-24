@@ -1,1 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
 @import "tailwindcss";
+
+@theme{
+  
+  --color-cgreen-500: #15AB4E;
+  --breakpoint-xs: 600px;
+  --breakpoint-xxs:500px;
+  --font-Primary: "Big Shoulders";
+  --breakpoint-xl1: 1800px;
+  --breakpoint-tl:2100px;
+}

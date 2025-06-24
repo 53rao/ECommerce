@@ -1,8 +1,8 @@
-import Navbar from "../Components/navbar";
+import Navbar from "../Components/Navbar";
 function Shop(){
     return(
     <>
-    <Navbar/>
+    <Navbar bg={"green-500"}/>
     <p className="text-4xl">This is Shop Page</p>
     
     </>
