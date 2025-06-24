@@ -1,4 +1,4 @@
-const newshoeData = [
+const combined = [
   {
     id: 4832,
     name: 'Reebok Casual Blue',
@@ -113,4 +113,4 @@ const newshoeData = [
   },
 ];
 
-export default newshoeData;
+export default combined;

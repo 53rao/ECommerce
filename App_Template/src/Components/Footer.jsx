@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-10 px-6 justify-center h-auto  overflow-hidden">
+    <footer className="bg-gray-900 text-white py-10 px-6 justify-center h-auto font-Primary overflow-hidden">
       <div className="max-w-7xl  grid grid-cols-1 md:grid-cols-3 gap-8 ">
 
         

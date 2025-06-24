@@ -4,6 +4,7 @@ import Shop from './Pages/Shop';
 import Cart from './Pages/Cart';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
+import CardDetails from './Pages/CardDetails';
 function App() {
   return(
     <>
@@ -14,7 +15,7 @@ function App() {
         <Route path='/Cart' element={<Cart/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/About' element={<About/>}/>
-
+        <Route path='/Shop/:id' element={<CardDetails/>}/>
       </Routes>
     </Router>
     </>

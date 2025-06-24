@@ -8,10 +8,9 @@ function Home(){
     return(
     <>
     
-    <div className="h-auto overflow-hidden
-">
+    <div className="h-auto overflow-hidden">
       <div className="HERO h-auto  lg:h-[95vh] w-screen bg-cgreen-500  place-content-between" >
-      <Navbar bg={"cgreen-500"}/>
+      <Navbar bgm={"cgreen-500"}/>
       <div className="holder flex justify-center h-4/5 w-full 2xl:h-3/4  ]"> 
         <img src="/Hero/ok1.png" alt=""  className="object-contain max-h-full max-w-full "/>
       </div>

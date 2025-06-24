@@ -3,9 +3,11 @@ import Navbar from "../Components/Navbar";
 function Contact(){
     return(
     <>
-    <Navbar bg={"cgreen-500"}/>
-    <p className="text-4xl">Form Coming Soon</p>
+    <div className="main bg-purple-500">
+        <Navbar bgm={"cgreen-500"}/>
+        <p className="text-4xl">Form Coming Soon</p>
     <Footer/>
+    </div>
     </>
     );
 }

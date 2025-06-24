@@ -3,9 +3,11 @@ import Footer from "../Components/Footer";
 function Cart(){
     return(
     <>
-    <Navbar bg={"cgreen-500"}/>
+    <div className="main bg-red-500">
+        <Navbar bgm={"cgreen-500"}/>
     <p className="text-4xl">Your Cart is Empty</p>
     <Footer/>
+    </div>
     </>
     );
 }

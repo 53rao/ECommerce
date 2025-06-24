@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Navbar(params) {
     return(<>
        
-      <div className={`bg-${params.bg} h-[6vh] xs:h-[8vh] w-screen flex font-Primary font-bold text-2xl items-center px-2 xs:px-5 place-content-between`}>
+      <div className={`bg-transparent  h-[8vh] w-screen flex font-Primary font-bold text-2xl items-center px-2 xs:px-5 place-content-between`}>
         <div className="brand flex items-center">
           <div className="logo h-10 w-10 rounded-full">
           <img src="Vectors/Logo.png" alt="" />
