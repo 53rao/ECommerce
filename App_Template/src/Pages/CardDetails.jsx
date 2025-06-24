@@ -17,7 +17,7 @@ function CardDetails(){
 
            <Navbar/>
             <div className="group flex sm:flex-row flex-col flex-wrap sm:flex-nowrap   w-screen sm:w-[90vw] items-center sm:h-[95vh] px-4 pt-3">
-                <div className="imageholder sm:h-[50vh] sm:w-[50vw] rounded-2xl w-[90vw] h-auto px-5">
+                <div className="imageholder sm:h-[50vh] sm:w-[50vw] rounded-2xl w-[90vw] h-auto px-5 ">
                     <img src={shoe.image} alt="" className="object-contain w-full h-full rounded-4xl" />
                     
                 </div>
