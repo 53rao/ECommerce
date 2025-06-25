@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base : process.env.VITE_BASH_PATH || "/"
 })
