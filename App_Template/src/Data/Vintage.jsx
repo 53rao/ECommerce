@@ -27,7 +27,7 @@ const vintageshoes = [
   },
   {
     id: 6837,
-    name: 'Trendy Purple Sneakers',
+    name: 'World War 1',
     title: 'Trendy purple sneakers',
     price: 378,
     mrp: 799,
@@ -40,7 +40,7 @@ const vintageshoes = [
   },
   {
     id: 5470,
-    name: 'Puma Red Running',
+    name: 'World War 2',
     title: 'Puma Red Running Shoes',
     price: 1359,
     mrp: 1599,

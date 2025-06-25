@@ -1,7 +1,7 @@
 // Card2.jsx
 
 import { Link } from "react-router-dom";
-
+import Button from "./Button";
 function Card2({ shoe }) {
   return (
    <>
@@ -19,7 +19,7 @@ function Card2({ shoe }) {
         <div className="text-lg font-semibold mb-2">{shoe.name}</div>
        <div className="mt-2 text-md text-gray-600 flex">₹{shoe.price}<p className="px-3 line-through">₹{shoe.mrp}</p><span className={`${shoe.buttonColor}  text-white  text-center`}>{shoe.discount}% off</span></div>
        <div className="mt-1 text-xs text-gray-500">Sizes: {shoe.sizes.join(', ')}</div>
-       <div className={`btn  w-full text-center flex justify-center p-4 my-3 text-2xl text-amber-50 ${shoe.buttonColor}`}> Add to cart</div>
+       <Button buttonColor={shoe.buttonColor}/>
        <div className="text-gray-800 text-2xl hidden group-hover:flex">{shoe.desc}</div>
       </div>
 </div>
