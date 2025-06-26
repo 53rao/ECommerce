@@ -1,6 +1,7 @@
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 function Cart() {
+  
   return (
     <>
       <div className="main bg-red-500">

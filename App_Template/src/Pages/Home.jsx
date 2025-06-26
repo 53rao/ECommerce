@@ -65,14 +65,14 @@ function Home() {
           <div className="ad h- w-full sm:px-2 justify-center items-center  mx-auto flex flex-wrap ">
             <div className="imageholder w-full  h-80 sm:h-100 sm:w-1/2 sm:pr-2 ">
               <img
-                src="Hero/8.png"
+                src="Hero/9.png"
                 alt=""
                 className="object-cover w-full h-full "
               />
             </div>
             <div className="imageholder w-full h-80 sm:h-100  sm:w-1/2 ">
               <img
-                src="Hero/7.png"
+                src="Hero/10.png"
                 alt=""
                 className="object-cover w-full h-full "
               />

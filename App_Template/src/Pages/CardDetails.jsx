@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import Footer from "../Components/Footer";
 import combined from "../Data/Combined";
 import Navbar from "../Components/Navbar";
+import Button from "../Components/Button";
 function CardDetails() {
   const { id } = useParams();
   const shoe = combined.find((shoe) => shoe.id == id);
@@ -65,12 +66,8 @@ function CardDetails() {
             <p className="sm:text-4xl text-2xl font-extralight py-3">
               {shoe.desc}
             </p>
-
-            <div
-              className={`${shoe.buttonColor} text-6xl p-4 text-center py-3 mt-4`}
-            >
-              COMING SOON
-            </div>
+            <Button buttonColor={shoe.buttonColor} text={"Coming Soon"}/>
+            
           </div>
         </div>
         <Footer />
